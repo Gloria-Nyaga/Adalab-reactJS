@@ -3,16 +3,13 @@ form{
     padding:10px;
     border: solid 1px;
 }
-
 input{
     padding: 12px 5px;
     width: 95%;
     margin: 2% 0;
     border-radius: 5px;
     border: 1px solid rgb(82, 80, 80);
-
 }
-
 button{
     padding: 10px 12px;
     width: 96%;
@@ -20,6 +17,35 @@ button{
     border: none;
     border-radius: 5px;
     background-color: rgb(57,164, 97);
-    color: #ffffff;
-
+    color: #FFFFFF;
 }
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .modal-content {
+    background-color: #FEFEFE;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

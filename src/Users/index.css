@@ -1,0 +1,12 @@
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: small;
+    margin-top: 22px;
+    justify-content: center;
+  }
+  .images * {
+    flex: 0 1 calc(30% - 20px);
+    max-width: calc(30% - 20px);
+  }
